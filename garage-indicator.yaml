@@ -1,21 +1,3 @@
-esphome:
-  name: garage-indicator
-  platform: ESP8266
-  board: nodemcuv2
-
-# Enable logging
-logger:
-  level: debug
-  
-# Enable Home Assistant API
-api:
-
-ota:
-
-wifi:
-  ssid: !secret wifi_ssid
-  password: !secret wifi_password
-
 text_sensor:
   - platform: homeassistant
     id: garage_door_state
