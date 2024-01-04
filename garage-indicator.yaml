@@ -2,7 +2,7 @@ text_sensor:
   - platform: homeassistant
     id: garage_door_state
     name: "Garage Door State"
-    entity_id: cover.ratgdov25_b5f07f_door
+    entity_id: cover.ENTITY_ID_OF_COVER_DOOR
     internal: True
 
 font:
